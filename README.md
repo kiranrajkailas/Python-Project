@@ -1,1 +1,7 @@
 # Python-Project
+The dataset consists of the data of basketball players, their positions, age, alma mater, salary, etc. based in the United States. The Height column in the dataset provides irrelevant data, so the heights are filled using random numbers between 150 and 180. The College names are also not complete, they are filled with 'Unknown' as they do not play a significant part in the analysis. The salaries of the players vary significantly with the presence of outliers. Thus the strategy used to fill the missing salary entries is to fill them by the median of the Salary column. A histogram plotted before the manipulation showed that the distribution was positively skewed. The following are the major findings from the analysis.
+  1. The distribution of the employees (players) is more or less uniform among the teams.
+  2. The segregation of the employees shows that they are uniformly placed in the teams except for a few fluctuations.
+  3. The analysis based on age shows that the most number of players fall under the age group of 23-27 (47.7%).
+  4. The analysis of maximum salary expenditure shows that the Los Angeles Lakers with position SF receive the maximum followed by the Miami Heat with position PF.
+  5. To understand the correlation between age and salary, scatter plots and box plots are plotted. The analysis shows that there are outliers in the salary. The correlation coefficient is computed and obtained as 0.21, which shows that there is no positive relationship between age and salary.
